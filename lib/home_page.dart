@@ -1254,11 +1254,21 @@ class _SettingsPageState extends State<SettingsPage> {
           ),
         ),
 
-        const Padding(
-          padding: EdgeInsets.all(40.0),
-          child: Text(
-            "提示：如果没有数据，请尝试切换其他线路。",
-            style: TextStyle(color: Colors.grey),
+        Padding(
+          padding: const EdgeInsets.all(40.0),
+          child: Row(
+            // 关键属性：让子组件两端对齐
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                "提示：如果没有数据，请尝试切换其他线路。",
+                style: TextStyle(color: Colors.grey),
+              ),
+              Text(
+                "项目地址：https://github.com/1522416243/ZycFun",
+                style: TextStyle(color: Colors.grey),
+              ),
+            ],
           ),
         ),
       ],
