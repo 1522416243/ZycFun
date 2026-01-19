@@ -41,7 +41,7 @@
 ### 运行步骤
 1.  克隆仓库：
     ```bash
-    git clone https://github.com/1522416243/ZycFun.git
+    git clone https://github.com/zycczhang/ZycFun.git
     ```
 
 2.  安装依赖：
