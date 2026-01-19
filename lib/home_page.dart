@@ -1265,7 +1265,7 @@ class _SettingsPageState extends State<SettingsPage> {
                 style: TextStyle(color: Colors.grey),
               ),
               Text(
-                "项目地址：https://github.com/1522416243/ZycFun",
+                "项目地址：https://github.com/zycczhang/ZycFun",
                 style: TextStyle(color: Colors.grey),
               ),
             ],
